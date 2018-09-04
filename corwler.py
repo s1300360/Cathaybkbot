@@ -95,7 +95,7 @@ def Dcard():
     '''
     在Dcard 上某個關鍵字最新的文章
     '''
-    url = 'https://www.dcard.tw/search/general?query=%E5%9C%8B%E6%B3%B0%E4%B8%96%E8%8F%AF'
+    url = 'https://www.dcard.tw/search/general?query=%E5%A4%A9%E4%BB%81'
     resp = requests.get(url)
     soup = BeautifulSoup(resp.text, 'html.parser')
     atags = soup.find_all('a', re.compile('PostEntry_root_'))
