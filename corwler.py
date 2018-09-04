@@ -60,7 +60,7 @@ def google():
     pretext = ')]}\''
     
     # 爬下com
-    url = 'https://www.google.com.tw/maps/preview/reviews?authuser=0&hl=zh-TW&gl=tw&pb=!1s0x3442abef9a6f0ecf%3A0x9f3185fc311523a8!2i0!3i10!4e3!7m4!2b1!3b1!5b1!6b1'
+    url = 'https://www.google.com.tw/maps/preview/reviews?authuser=0&hl=zh-TW&gl=tw&pb=!1s0x3442a90b13ba13df%3A0x550b71addae51014!2i0!3i10!4e3!7m4!2b1!3b1!5b1!6b1'
     resp = requests.get(url)
     text = resp.text.replace(pretext,'')
     soup = json.loads(text)
@@ -74,7 +74,7 @@ def google():
     star = first[4]
     
     # 爬下com
-    url2 = 'https://www.google.com.tw/maps/preview/reviews?authuser=0&hl=zh-TW&gl=tw&pb=!1s0x3442a8e11ec9e0b1%3A0x4f3b074134ce12db!2i0!3i10!4e3!7m4!2b1!3b1!5b1!6b1'
+    url2 = 'https://www.google.com.tw/maps/preview/reviews?authuser=0&hl=zh-TW&gl=tw&pb=!1s0x3442ae7e9bf26087%3A0xd9b39997661e36d4!2i0!3i10!4e3!7m4!2b1!3b1!5b1!6b1'
     resp2 = requests.get(url2)
     text2= resp2.text.replace(pretext,'')
     soup2 = json.loads(text2)
