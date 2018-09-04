@@ -87,7 +87,7 @@ def google():
     mesg2 = first2[3]
     star2 = first2[4]
     
-    string = '%s \n %s \n於 %s 將您評為 %s顆星 \n留言：%s \n %s \n %s \n於 %s 將您評為 %s顆星 \n留言：%s ' % ('衡陽店', username, time,star,mesg,'天母店',username2,time2,star2,mesg2)
+    string = '%s \n %s \n於 %s 將您評為 %s顆星 \n留言：%s \n%s \n %s \n於 %s 將您評為 %s顆星 \n留言：%s ' % ('衡陽店', username, time,star,mesg,'天母店',username2,time2,star2,mesg2)
     
     return string
 
