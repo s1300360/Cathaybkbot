@@ -1,2 +1,2 @@
-# Cathaybkbot
-Cathaybkbot
+# Samurai Red
+Samurai Red
