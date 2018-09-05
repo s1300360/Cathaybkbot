@@ -17,7 +17,7 @@ def udn_news():
     
     回傳是一個dict
     '''
-    rss_url = 'https://udn.com/rssfeed/news/2/6649/7535?ch=news'
+    rss_url = 'https://udn.com/rssfeed/news/2/6649?ch=news'
  
     # 抓取資料
     rss = feedparser.parse(rss_url)
